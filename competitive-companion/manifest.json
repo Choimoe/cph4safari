@@ -1,0 +1,62 @@
+{
+  "manifest_version": 3,
+  "name": "Competitive Companion",
+  "description": "Parses competitive programming problems and sends them to various tools like CP Editor and CPH.",
+  "version": "2.60.0",
+  "author": "Jasper van Merle",
+  "homepage_url": "https://github.com/jmerle/competitive-companion",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://localhost/"
+  ],
+  "icons": {
+    "16": "icons/icon-16.png",
+    "19": "icons/icon-19.png",
+    "20": "icons/icon-20.png",
+    "24": "icons/icon-24.png",
+    "32": "icons/icon-32.png",
+    "38": "icons/icon-38.png",
+    "48": "icons/icon-48.png",
+    "64": "icons/icon-64.png",
+    "96": "icons/icon-96.png",
+    "128": "icons/icon-128.png"
+  },
+  "options_ui": {
+    "page": "options.html"
+  },
+  "action": {
+    "default_title": "Parse task",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "19": "icons/icon-19.png",
+      "20": "icons/icon-20.png",
+      "24": "icons/icon-24.png",
+      "32": "icons/icon-32.png",
+      "38": "icons/icon-38.png",
+      "48": "icons/icon-48.png",
+      "64": "icons/icon-64.png",
+      "96": "icons/icon-96.png"
+    }
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+U"
+      }
+    }
+  },
+  "optional_host_permissions": [
+    "https://codejam.googleapis.com/dashboard/get_file/*",
+    "https://api.tlx.toki.id/v2/*",
+    "https://resources.beecrowd.com/*"
+  ],
+  "background": {
+    "service_worker": "js/background.js",
+    "type": "module"
+  }
+}

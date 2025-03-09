@@ -1,0 +1,955 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036B2C532D7DFEFE008ABAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B2C522D7DFEFE008ABAAB /* AppDelegate.swift */; };
+		036B2C552D7DFEFE008ABAAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B2C542D7DFEFE008ABAAB /* SceneDelegate.swift */; };
+		036B2C582D7DFEFE008ABAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036B2C562D7DFEFE008ABAAB /* LaunchScreen.storyboard */; };
+		036B2C5B2D7DFEFE008ABAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036B2C592D7DFEFE008ABAAB /* Main.storyboard */; };
+		036B2C642D7DFEFE008ABAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B2C632D7DFEFE008ABAAB /* AppDelegate.swift */; };
+		036B2C672D7DFEFE008ABAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036B2C652D7DFEFE008ABAAB /* Main.storyboard */; };
+		036B2C6F2D7DFEFE008ABAAB /* Competitive Companion Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 036B2C6E2D7DFEFE008ABAAB /* Competitive Companion Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		036B2C792D7DFEFE008ABAAB /* Competitive Companion Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 036B2C782D7DFEFE008ABAAB /* Competitive Companion Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		036B2C7F2D7DFEFE008ABAAB /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 036B2C422D7DFEFD008ABAAB /* Main.html */; };
+		036B2C802D7DFEFE008ABAAB /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 036B2C422D7DFEFD008ABAAB /* Main.html */; };
+		036B2C812D7DFEFE008ABAAB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 036B2C442D7DFEFD008ABAAB /* Icon.png */; };
+		036B2C822D7DFEFE008ABAAB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 036B2C442D7DFEFD008ABAAB /* Icon.png */; };
+		036B2C832D7DFEFE008ABAAB /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 036B2C452D7DFEFD008ABAAB /* Style.css */; };
+		036B2C842D7DFEFE008ABAAB /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 036B2C452D7DFEFD008ABAAB /* Style.css */; };
+		036B2C852D7DFEFE008ABAAB /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 036B2C462D7DFEFD008ABAAB /* Script.js */; };
+		036B2C862D7DFEFE008ABAAB /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 036B2C462D7DFEFD008ABAAB /* Script.js */; };
+		036B2C872D7DFEFE008ABAAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B2C472D7DFEFD008ABAAB /* ViewController.swift */; };
+		036B2C882D7DFEFE008ABAAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B2C472D7DFEFD008ABAAB /* ViewController.swift */; };
+		036B2C892D7DFEFE008ABAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036B2C482D7DFEFE008ABAAB /* Assets.xcassets */; };
+		036B2C8A2D7DFEFE008ABAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036B2C482D7DFEFE008ABAAB /* Assets.xcassets */; };
+		036B2C8B2D7DFEFE008ABAAB /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B2C4A2D7DFEFE008ABAAB /* SafariWebExtensionHandler.swift */; };
+		036B2C8C2D7DFEFE008ABAAB /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036B2C4A2D7DFEFE008ABAAB /* SafariWebExtensionHandler.swift */; };
+		036B2CA32D7DFEFE008ABAAB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 036B2C9E2D7DFEFE008ABAAB /* LICENSE */; };
+		036B2CA42D7DFEFE008ABAAB /* js in Resources */ = {isa = PBXBuildFile; fileRef = 036B2C9F2D7DFEFE008ABAAB /* js */; };
+		036B2CA52D7DFEFE008ABAAB /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 036B2CA02D7DFEFE008ABAAB /* icons */; };
+		036B2CA62D7DFEFE008ABAAB /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 036B2CA12D7DFEFE008ABAAB /* manifest.json */; };
+		036B2CA72D7DFEFE008ABAAB /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 036B2CA22D7DFEFE008ABAAB /* options.html */; };
+		036B2CA82D7DFEFE008ABAAB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 036B2C9E2D7DFEFE008ABAAB /* LICENSE */; };
+		036B2CA92D7DFEFE008ABAAB /* js in Resources */ = {isa = PBXBuildFile; fileRef = 036B2C9F2D7DFEFE008ABAAB /* js */; };
+		036B2CAA2D7DFEFE008ABAAB /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 036B2CA02D7DFEFE008ABAAB /* icons */; };
+		036B2CAB2D7DFEFE008ABAAB /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 036B2CA12D7DFEFE008ABAAB /* manifest.json */; };
+		036B2CAC2D7DFEFE008ABAAB /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 036B2CA22D7DFEFE008ABAAB /* options.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		036B2C702D7DFEFE008ABAAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036B2C3C2D7DFEFC008ABAAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036B2C6D2D7DFEFE008ABAAB;
+			remoteInfo = "Competitive Companion Extension (iOS)";
+		};
+		036B2C7A2D7DFEFE008ABAAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036B2C3C2D7DFEFC008ABAAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036B2C772D7DFEFE008ABAAB;
+			remoteInfo = "Competitive Companion Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		036B2C922D7DFEFE008ABAAB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				036B2C6F2D7DFEFE008ABAAB /* Competitive Companion Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B2C992D7DFEFE008ABAAB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				036B2C792D7DFEFE008ABAAB /* Competitive Companion Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		036B2C432D7DFEFD008ABAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		036B2C442D7DFEFD008ABAAB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		036B2C452D7DFEFD008ABAAB /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		036B2C462D7DFEFD008ABAAB /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		036B2C472D7DFEFD008ABAAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		036B2C482D7DFEFE008ABAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		036B2C4A2D7DFEFE008ABAAB /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		036B2C4F2D7DFEFE008ABAAB /* Competitive Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Competitive Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		036B2C522D7DFEFE008ABAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		036B2C542D7DFEFE008ABAAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		036B2C572D7DFEFE008ABAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		036B2C5A2D7DFEFE008ABAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		036B2C5C2D7DFEFE008ABAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036B2C612D7DFEFE008ABAAB /* Competitive Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Competitive Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		036B2C632D7DFEFE008ABAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		036B2C662D7DFEFE008ABAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		036B2C682D7DFEFE008ABAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036B2C692D7DFEFE008ABAAB /* Competitive Companion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Competitive Companion.entitlements"; sourceTree = "<group>"; };
+		036B2C6E2D7DFEFE008ABAAB /* Competitive Companion Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Competitive Companion Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		036B2C732D7DFEFE008ABAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036B2C782D7DFEFE008ABAAB /* Competitive Companion Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Competitive Companion Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		036B2C7D2D7DFEFE008ABAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036B2C7E2D7DFEFE008ABAAB /* Competitive Companion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Competitive Companion.entitlements"; sourceTree = "<group>"; };
+		036B2C9E2D7DFEFE008ABAAB /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		036B2C9F2D7DFEFE008ABAAB /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		036B2CA02D7DFEFE008ABAAB /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
+		036B2CA12D7DFEFE008ABAAB /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		036B2CA22D7DFEFE008ABAAB /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = options.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036B2C4C2D7DFEFE008ABAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B2C5E2D7DFEFE008ABAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B2C6B2D7DFEFE008ABAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B2C752D7DFEFE008ABAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036B2C3B2D7DFEFC008ABAAB = {
+			isa = PBXGroup;
+			children = (
+				036B2C402D7DFEFD008ABAAB /* Shared (App) */,
+				036B2C492D7DFEFE008ABAAB /* Shared (Extension) */,
+				036B2C512D7DFEFE008ABAAB /* iOS (App) */,
+				036B2C622D7DFEFE008ABAAB /* macOS (App) */,
+				036B2C722D7DFEFE008ABAAB /* iOS (Extension) */,
+				036B2C7C2D7DFEFE008ABAAB /* macOS (Extension) */,
+				036B2C502D7DFEFE008ABAAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		036B2C402D7DFEFD008ABAAB /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				036B2C472D7DFEFD008ABAAB /* ViewController.swift */,
+				036B2C482D7DFEFE008ABAAB /* Assets.xcassets */,
+				036B2C412D7DFEFD008ABAAB /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		036B2C412D7DFEFD008ABAAB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				036B2C422D7DFEFD008ABAAB /* Main.html */,
+				036B2C442D7DFEFD008ABAAB /* Icon.png */,
+				036B2C452D7DFEFD008ABAAB /* Style.css */,
+				036B2C462D7DFEFD008ABAAB /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		036B2C492D7DFEFE008ABAAB /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				036B2C9D2D7DFEFE008ABAAB /* Resources */,
+				036B2C4A2D7DFEFE008ABAAB /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		036B2C502D7DFEFE008ABAAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036B2C4F2D7DFEFE008ABAAB /* Competitive Companion.app */,
+				036B2C612D7DFEFE008ABAAB /* Competitive Companion.app */,
+				036B2C6E2D7DFEFE008ABAAB /* Competitive Companion Extension.appex */,
+				036B2C782D7DFEFE008ABAAB /* Competitive Companion Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		036B2C512D7DFEFE008ABAAB /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				036B2C522D7DFEFE008ABAAB /* AppDelegate.swift */,
+				036B2C542D7DFEFE008ABAAB /* SceneDelegate.swift */,
+				036B2C562D7DFEFE008ABAAB /* LaunchScreen.storyboard */,
+				036B2C592D7DFEFE008ABAAB /* Main.storyboard */,
+				036B2C5C2D7DFEFE008ABAAB /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		036B2C622D7DFEFE008ABAAB /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				036B2C632D7DFEFE008ABAAB /* AppDelegate.swift */,
+				036B2C652D7DFEFE008ABAAB /* Main.storyboard */,
+				036B2C682D7DFEFE008ABAAB /* Info.plist */,
+				036B2C692D7DFEFE008ABAAB /* Competitive Companion.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		036B2C722D7DFEFE008ABAAB /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				036B2C732D7DFEFE008ABAAB /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		036B2C7C2D7DFEFE008ABAAB /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				036B2C7D2D7DFEFE008ABAAB /* Info.plist */,
+				036B2C7E2D7DFEFE008ABAAB /* Competitive Companion.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		036B2C9D2D7DFEFE008ABAAB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				036B2C9E2D7DFEFE008ABAAB /* LICENSE */,
+				036B2C9F2D7DFEFE008ABAAB /* js */,
+				036B2CA02D7DFEFE008ABAAB /* icons */,
+				036B2CA12D7DFEFE008ABAAB /* manifest.json */,
+				036B2CA22D7DFEFE008ABAAB /* options.html */,
+			);
+			name = Resources;
+			path = "competitive-companion";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		036B2C4E2D7DFEFE008ABAAB /* Competitive Companion (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036B2C932D7DFEFE008ABAAB /* Build configuration list for PBXNativeTarget "Competitive Companion (iOS)" */;
+			buildPhases = (
+				036B2C4B2D7DFEFE008ABAAB /* Sources */,
+				036B2C4C2D7DFEFE008ABAAB /* Frameworks */,
+				036B2C4D2D7DFEFE008ABAAB /* Resources */,
+				036B2C922D7DFEFE008ABAAB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036B2C712D7DFEFE008ABAAB /* PBXTargetDependency */,
+			);
+			name = "Competitive Companion (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Competitive Companion (iOS)";
+			productReference = 036B2C4F2D7DFEFE008ABAAB /* Competitive Companion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		036B2C602D7DFEFE008ABAAB /* Competitive Companion (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036B2C9A2D7DFEFE008ABAAB /* Build configuration list for PBXNativeTarget "Competitive Companion (macOS)" */;
+			buildPhases = (
+				036B2C5D2D7DFEFE008ABAAB /* Sources */,
+				036B2C5E2D7DFEFE008ABAAB /* Frameworks */,
+				036B2C5F2D7DFEFE008ABAAB /* Resources */,
+				036B2C992D7DFEFE008ABAAB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036B2C7B2D7DFEFE008ABAAB /* PBXTargetDependency */,
+			);
+			name = "Competitive Companion (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Competitive Companion (macOS)";
+			productReference = 036B2C612D7DFEFE008ABAAB /* Competitive Companion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		036B2C6D2D7DFEFE008ABAAB /* Competitive Companion Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036B2C8F2D7DFEFE008ABAAB /* Build configuration list for PBXNativeTarget "Competitive Companion Extension (iOS)" */;
+			buildPhases = (
+				036B2C6A2D7DFEFE008ABAAB /* Sources */,
+				036B2C6B2D7DFEFE008ABAAB /* Frameworks */,
+				036B2C6C2D7DFEFE008ABAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Competitive Companion Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Competitive Companion Extension (iOS)";
+			productReference = 036B2C6E2D7DFEFE008ABAAB /* Competitive Companion Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		036B2C772D7DFEFE008ABAAB /* Competitive Companion Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036B2C962D7DFEFE008ABAAB /* Build configuration list for PBXNativeTarget "Competitive Companion Extension (macOS)" */;
+			buildPhases = (
+				036B2C742D7DFEFE008ABAAB /* Sources */,
+				036B2C752D7DFEFE008ABAAB /* Frameworks */,
+				036B2C762D7DFEFE008ABAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Competitive Companion Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Competitive Companion Extension (macOS)";
+			productReference = 036B2C782D7DFEFE008ABAAB /* Competitive Companion Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		036B2C3C2D7DFEFC008ABAAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					036B2C4E2D7DFEFE008ABAAB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					036B2C602D7DFEFE008ABAAB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					036B2C6D2D7DFEFE008ABAAB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					036B2C772D7DFEFE008ABAAB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 036B2C3F2D7DFEFC008ABAAB /* Build configuration list for PBXProject "Competitive Companion" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 036B2C3B2D7DFEFC008ABAAB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 036B2C502D7DFEFE008ABAAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				036B2C4E2D7DFEFE008ABAAB /* Competitive Companion (iOS) */,
+				036B2C602D7DFEFE008ABAAB /* Competitive Companion (macOS) */,
+				036B2C6D2D7DFEFE008ABAAB /* Competitive Companion Extension (iOS) */,
+				036B2C772D7DFEFE008ABAAB /* Competitive Companion Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		036B2C4D2D7DFEFE008ABAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036B2C812D7DFEFE008ABAAB /* Icon.png in Resources */,
+				036B2C582D7DFEFE008ABAAB /* LaunchScreen.storyboard in Resources */,
+				036B2C7F2D7DFEFE008ABAAB /* Main.html in Resources */,
+				036B2C852D7DFEFE008ABAAB /* Script.js in Resources */,
+				036B2C892D7DFEFE008ABAAB /* Assets.xcassets in Resources */,
+				036B2C5B2D7DFEFE008ABAAB /* Main.storyboard in Resources */,
+				036B2C832D7DFEFE008ABAAB /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B2C5F2D7DFEFE008ABAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036B2C822D7DFEFE008ABAAB /* Icon.png in Resources */,
+				036B2C842D7DFEFE008ABAAB /* Style.css in Resources */,
+				036B2C672D7DFEFE008ABAAB /* Main.storyboard in Resources */,
+				036B2C862D7DFEFE008ABAAB /* Script.js in Resources */,
+				036B2C8A2D7DFEFE008ABAAB /* Assets.xcassets in Resources */,
+				036B2C802D7DFEFE008ABAAB /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B2C6C2D7DFEFE008ABAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036B2CAB2D7DFEFE008ABAAB /* manifest.json in Resources */,
+				036B2CAA2D7DFEFE008ABAAB /* icons in Resources */,
+				036B2CAC2D7DFEFE008ABAAB /* options.html in Resources */,
+				036B2CA82D7DFEFE008ABAAB /* LICENSE in Resources */,
+				036B2CA92D7DFEFE008ABAAB /* js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B2C762D7DFEFE008ABAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036B2CA62D7DFEFE008ABAAB /* manifest.json in Resources */,
+				036B2CA52D7DFEFE008ABAAB /* icons in Resources */,
+				036B2CA72D7DFEFE008ABAAB /* options.html in Resources */,
+				036B2CA32D7DFEFE008ABAAB /* LICENSE in Resources */,
+				036B2CA42D7DFEFE008ABAAB /* js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036B2C4B2D7DFEFE008ABAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036B2C872D7DFEFE008ABAAB /* ViewController.swift in Sources */,
+				036B2C532D7DFEFE008ABAAB /* AppDelegate.swift in Sources */,
+				036B2C552D7DFEFE008ABAAB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B2C5D2D7DFEFE008ABAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036B2C882D7DFEFE008ABAAB /* ViewController.swift in Sources */,
+				036B2C642D7DFEFE008ABAAB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B2C6A2D7DFEFE008ABAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036B2C8B2D7DFEFE008ABAAB /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036B2C742D7DFEFE008ABAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036B2C8C2D7DFEFE008ABAAB /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		036B2C712D7DFEFE008ABAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036B2C6D2D7DFEFE008ABAAB /* Competitive Companion Extension (iOS) */;
+			targetProxy = 036B2C702D7DFEFE008ABAAB /* PBXContainerItemProxy */;
+		};
+		036B2C7B2D7DFEFE008ABAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036B2C772D7DFEFE008ABAAB /* Competitive Companion Extension (macOS) */;
+			targetProxy = 036B2C7A2D7DFEFE008ABAAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		036B2C422D7DFEFD008ABAAB /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036B2C432D7DFEFD008ABAAB /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		036B2C562D7DFEFE008ABAAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036B2C572D7DFEFE008ABAAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		036B2C592D7DFEFE008ABAAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036B2C5A2D7DFEFE008ABAAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		036B2C652D7DFEFE008ABAAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036B2C662D7DFEFE008ABAAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		036B2C8D2D7DFEFE008ABAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		036B2C8E2D7DFEFE008ABAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		036B2C902D7DFEFE008ABAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Competitive Companion Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Competitive-Companion.Extension";
+				PRODUCT_NAME = "Competitive Companion Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		036B2C912D7DFEFE008ABAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Competitive Companion Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Competitive-Companion.Extension";
+				PRODUCT_NAME = "Competitive Companion Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		036B2C942D7DFEFE008ABAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Competitive Companion";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Competitive-Companion";
+				PRODUCT_NAME = "Competitive Companion";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		036B2C952D7DFEFE008ABAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Competitive Companion";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Competitive-Companion";
+				PRODUCT_NAME = "Competitive Companion";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		036B2C972D7DFEFE008ABAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Competitive Companion.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Competitive Companion Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Competitive-Companion.Extension";
+				PRODUCT_NAME = "Competitive Companion Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		036B2C982D7DFEFE008ABAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Competitive Companion.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Competitive Companion Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Competitive-Companion.Extension";
+				PRODUCT_NAME = "Competitive Companion Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		036B2C9B2D7DFEFE008ABAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Competitive Companion.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Competitive Companion";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Competitive-Companion";
+				PRODUCT_NAME = "Competitive Companion";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		036B2C9C2D7DFEFE008ABAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Competitive Companion.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Competitive Companion";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Competitive-Companion";
+				PRODUCT_NAME = "Competitive Companion";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036B2C3F2D7DFEFC008ABAAB /* Build configuration list for PBXProject "Competitive Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036B2C8D2D7DFEFE008ABAAB /* Debug */,
+				036B2C8E2D7DFEFE008ABAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036B2C8F2D7DFEFE008ABAAB /* Build configuration list for PBXNativeTarget "Competitive Companion Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036B2C902D7DFEFE008ABAAB /* Debug */,
+				036B2C912D7DFEFE008ABAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036B2C932D7DFEFE008ABAAB /* Build configuration list for PBXNativeTarget "Competitive Companion (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036B2C942D7DFEFE008ABAAB /* Debug */,
+				036B2C952D7DFEFE008ABAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036B2C962D7DFEFE008ABAAB /* Build configuration list for PBXNativeTarget "Competitive Companion Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036B2C972D7DFEFE008ABAAB /* Debug */,
+				036B2C982D7DFEFE008ABAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036B2C9A2D7DFEFE008ABAAB /* Build configuration list for PBXNativeTarget "Competitive Companion (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036B2C9B2D7DFEFE008ABAAB /* Debug */,
+				036B2C9C2D7DFEFE008ABAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 036B2C3C2D7DFEFC008ABAAB /* Project object */;
+}
