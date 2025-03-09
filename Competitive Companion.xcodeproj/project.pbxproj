@@ -29,16 +29,6 @@
 		0325C30E2D7DE3CC00A8C5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0325C2CC2D7DE3CC00A8C5C3 /* Assets.xcassets */; };
 		0325C30F2D7DE3CC00A8C5C3 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0325C2CE2D7DE3CC00A8C5C3 /* SafariWebExtensionHandler.swift */; };
 		0325C3102D7DE3CC00A8C5C3 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0325C2CE2D7DE3CC00A8C5C3 /* SafariWebExtensionHandler.swift */; };
-		0325C3272D7DE3CC00A8C5C3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0325C3222D7DE3CC00A8C5C3 /* LICENSE */; };
-		0325C3282D7DE3CC00A8C5C3 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 0325C3232D7DE3CC00A8C5C3 /* js */; };
-		0325C3292D7DE3CC00A8C5C3 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 0325C3242D7DE3CC00A8C5C3 /* icons */; };
-		0325C32A2D7DE3CC00A8C5C3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 0325C3252D7DE3CC00A8C5C3 /* manifest.json */; };
-		0325C32B2D7DE3CC00A8C5C3 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 0325C3262D7DE3CC00A8C5C3 /* options.html */; };
-		0325C32C2D7DE3CC00A8C5C3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0325C3222D7DE3CC00A8C5C3 /* LICENSE */; };
-		0325C32D2D7DE3CC00A8C5C3 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 0325C3232D7DE3CC00A8C5C3 /* js */; };
-		0325C32E2D7DE3CC00A8C5C3 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 0325C3242D7DE3CC00A8C5C3 /* icons */; };
-		0325C32F2D7DE3CC00A8C5C3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 0325C3252D7DE3CC00A8C5C3 /* manifest.json */; };
-		0325C3302D7DE3CC00A8C5C3 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 0325C3262D7DE3CC00A8C5C3 /* options.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,11 +97,6 @@
 		0325C2FC2D7DE3CC00A8C5C3 /* Competitive Companion Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Competitive Companion Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0325C3012D7DE3CC00A8C5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0325C3022D7DE3CC00A8C5C3 /* Competitive Companion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Competitive Companion.entitlements"; sourceTree = "<group>"; };
-		0325C3222D7DE3CC00A8C5C3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = "../../../../Downloads/competitive_companion-2/LICENSE"; sourceTree = "<group>"; };
-		0325C3232D7DE3CC00A8C5C3 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = "../../../../Downloads/competitive_companion-2/js"; sourceTree = "<group>"; };
-		0325C3242D7DE3CC00A8C5C3 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = "../../../../Downloads/competitive_companion-2/icons"; sourceTree = "<group>"; };
-		0325C3252D7DE3CC00A8C5C3 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../../../Downloads/competitive_companion-2/manifest.json"; sourceTree = "<group>"; };
-		0325C3262D7DE3CC00A8C5C3 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = "../../../../Downloads/competitive_companion-2/options.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,7 +168,7 @@
 		0325C2CD2D7DE3CC00A8C5C3 /* Shared (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				0325C3212D7DE3CC00A8C5C3 /* Resources */,
+				03374C5F2D7DECB700F6C724 /* Resources */,
 				0325C2CE2D7DE3CC00A8C5C3 /* SafariWebExtensionHandler.swift */,
 			);
 			path = "Shared (Extension)";
@@ -240,18 +225,12 @@
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
 		};
-		0325C3212D7DE3CC00A8C5C3 /* Resources */ = {
+		03374C5F2D7DECB700F6C724 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0325C3222D7DE3CC00A8C5C3 /* LICENSE */,
-				0325C3232D7DE3CC00A8C5C3 /* js */,
-				0325C3242D7DE3CC00A8C5C3 /* icons */,
-				0325C3252D7DE3CC00A8C5C3 /* manifest.json */,
-				0325C3262D7DE3CC00A8C5C3 /* options.html */,
 			);
-			name = Resources;
-			path = "Shared (Extension)";
-			sourceTree = SOURCE_ROOT;
+			path = Resources;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -414,11 +393,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0325C32F2D7DE3CC00A8C5C3 /* manifest.json in Resources */,
-				0325C32E2D7DE3CC00A8C5C3 /* icons in Resources */,
-				0325C3302D7DE3CC00A8C5C3 /* options.html in Resources */,
-				0325C32C2D7DE3CC00A8C5C3 /* LICENSE in Resources */,
-				0325C32D2D7DE3CC00A8C5C3 /* js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,11 +400,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0325C32A2D7DE3CC00A8C5C3 /* manifest.json in Resources */,
-				0325C3292D7DE3CC00A8C5C3 /* icons in Resources */,
-				0325C32B2D7DE3CC00A8C5C3 /* options.html in Resources */,
-				0325C3272D7DE3CC00A8C5C3 /* LICENSE in Resources */,
-				0325C3282D7DE3CC00A8C5C3 /* js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,7 +696,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Competitive-Companion";
 				PRODUCT_NAME = "Competitive Companion";
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -763,7 +732,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Competitive-Companion";
 				PRODUCT_NAME = "Competitive Companion";
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
